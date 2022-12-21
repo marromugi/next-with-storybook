@@ -4,7 +4,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Button } from '.';
 
 export default {
-  title: 'next-with-storybook/button',
+  title: 'common/button',
   component: Button,
   argTypes: {
     backgroundColor: { control: 'select', options:["black", "white"] },
